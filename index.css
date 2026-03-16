@@ -1,0 +1,51 @@
+body{
+  background-image:url("green.webp");
+  background-repeat:no-repeat;
+  background-size:cover;
+  text-align:center;
+  color:white;
+  font-weight:bold;
+}
+
+h1{
+  color:goldenrod;
+  font-size:45px;
+}
+
+#message-el{
+  font-style:italic;
+  font-size:20px;
+}
+
+p{
+  font-size:25px;
+}
+
+button{
+  padding:8px 15px 8px 15px;
+  font-weight:bold;
+  font-size:20px;
+  color:white;
+  border:none;
+  border-radius:2px; 
+  margin-bottom:4px;
+  margin-top:4px;
+}
+
+#start-btn{
+  background-color:goldenrod;
+}
+
+#newcard-el{
+  background-color:goldenrod;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+.btndiv{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:1rem;
+}
+
